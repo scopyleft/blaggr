@@ -1,0 +1,21 @@
+{
+  "name": "scopyblog",
+  "version": "0.0.0",
+  "description": "Planet de blogs de Scopyleft",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Scopyleft",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.0.5",
+    "consolidate": "~0.6.0",
+    "mustache": "~0.7.1",
+    "feedparser": "~0.10.9",
+    "moment": "~1.7.2",
+    "config": "~0.4.18",
+    "request": "~2.12.0"
+  }
+}

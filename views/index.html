@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Blog | scopyleft</title>
+    <meta name="description" content="Le blog de scopyleft vous tient informé de l'organisation et des recherches techniques." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="http://scopyleft.fr/static/packed.css" />
+    <link type="text/css" rel="stylesheet" href="/static/js/prettify/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/layout.css" />
+
+    <script type="text/javascript" src="/static/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="/static/js/main.js"></script>
+</head>
+
+<body>
+    <a id="top"></a>
+    <header>
+        <h1 class="logo"><a href="/">scopyblog</a></h1>
+    </header>
+
+    <section>
+        {{#articles}}
+        <article>
+            <h1><a href="{{ link }}">{{ title }}</a></h1>
+            <article>{{{ summary }}}</article>
+            <small>Le <time pubdate="pubdate" datetime="{{ pubDate }}">{{ date }}</time> par <span>{{ author }}</span> (<a href="{{ link }}">{{ link }}</a>)</small>
+        </article>
+        {{/articles}}
+    </section>
+
+</body>
+</html>
