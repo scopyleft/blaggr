@@ -13,7 +13,7 @@
     "express": "~3.0.5",
     "consolidate": "~0.6.0",
     "mustache": "~0.7.1",
-    "feedparser": "~0.10.9",
+    "feedparser": "~0.10.10",
     "moment": "~1.7.2",
     "config": "~0.4.18",
     "request": "~2.12.0"
