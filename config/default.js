@@ -10,7 +10,7 @@ module.exports = {
     feed: {
         urls: [
            'https://larlet.fr/david/log/',
-           'http://localhost:8000/rss/',
+           'http://vinyll.scopyleft.fr/rss/',
            'https://nicolas.perriault.net/code/feed/'
            ]
     }
