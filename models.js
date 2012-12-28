@@ -1,9 +1,13 @@
 var moment = require('moment');
 
+
 Article = function(article) {
-    article.date = function() {
-        return moment(article.pubDate).format("D MMM YYYY");
-    }
+    article.date = moment(article.pubDate).format("D MMM YYYY");
+
+    article.slug = article.link
+                    .replace(new RegExp('^https?://(.+)/(.+)$'), '$2')
+                    .replace('/', '');
+
     return article;
 }
 
