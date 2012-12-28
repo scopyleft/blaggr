@@ -1,5 +1,5 @@
 {
-  "name": "scopyblog",
+  "name": "scopyleft blog",
   "version": "0.0.0",
   "description": "Planet de blogs de Scopyleft",
   "main": "app.js",
@@ -9,6 +9,10 @@
   "repository": "",
   "author": "Scopyleft",
   "license": "BSD",
+  "engines": {
+    "node": "v0.8.14",
+    "npm": "1.1.65"
+  },
   "dependencies": {
     "express": "~3.0.5",
     "consolidate": "~0.6.0",
