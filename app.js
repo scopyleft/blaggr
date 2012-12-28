@@ -35,6 +35,7 @@ app.get('/', function(req, res) {
             urlsDone++;
             collection.add(this.articles);
             if(urlsDone == feedUrls.length) {
+                collection.sort();
                 res.render('index', {articles: collection.articles});
             }
         });
