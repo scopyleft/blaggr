@@ -1,0 +1,14 @@
+---
+applications:
+  .:
+    url: ${name}.${target-base}
+    name: scopyblog
+    instances: 1
+    mem: "128"
+    infra: eu-aws
+    framework:
+      name: node
+      info:
+        description: Node.js Application
+        mem: 64M
+        exec:
