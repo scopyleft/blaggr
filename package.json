@@ -1,12 +1,12 @@
 {
   "name": "scopyblog",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Planet de blogs de Scopyleft",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": "https://github.com/scopyleft/blog.git",
   "author": "Scopyleft",
   "license": "BSD",
   "engines": {
