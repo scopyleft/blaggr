@@ -7,11 +7,21 @@ module.exports = {
         viewsDir: __dirname + '/../views',
         viewsExtensions: 'html',
     },
-    feed: {
-        urls: [
-           'https://larlet.fr/david/log/',
-           'http://vinyll.scopyleft.fr/rss/',
-           'https://nicolas.perriault.net/code/feed/'
-           ]
-    }
+    feeds: [
+        {
+            url: "https://larlet.fr/david/log/",
+            title: "David Larlet",
+            type: "rss"
+        },
+        {
+            url: "http://vinyll.scopyleft.fr/rss/",
+            title: "Vincent Agnano",
+            type: "rss"
+        },
+        {
+            url: "https://nicolas.perriault.net/code/feed/",
+            title: "Nicolas Perriault",
+            type: "rss"
+        }
+    ]
 };
