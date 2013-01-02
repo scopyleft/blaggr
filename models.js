@@ -9,7 +9,7 @@ Article = function(article) {
                     .replace('/', '');
 
     return article;
-}
+};
 
 
 Collection = function() {
@@ -29,7 +29,7 @@ Collection = function() {
             this.articles.push(articleModel);
         }
         return this;
-    }
+    };
 
     this.sort = function() {
         this.articles.sort(function(art1, art2) {
@@ -38,8 +38,8 @@ Collection = function() {
             return 0;
         }).reverse();
         return this;
-    }
-}
+    };
+};
 
 module.exports = {article: {
     article: Article, collection: Collection

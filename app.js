@@ -28,7 +28,12 @@ app.get('/', function(req, res) {
         collection = new models.article.collection();
 
     feedUrls.forEach(function(url) {
-        reqObj = {'uri': url, 'headers': {'user-agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11'}}
+        reqObj = {
+            'uri': url,
+            'headers': {
+                'user-agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11'
+            }
+        };
         parser = feedparser.parseUrl(reqObj);
 
         parser.on('end', function() {

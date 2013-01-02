@@ -23,9 +23,9 @@
     <section>
         {{#articles}}
         <article>
-            <h1><a href="#{{ slug }}" name="{{ slug }}">{{ title }}</a></h1>
+            <h1><a href="{{ link }}" name="{{ slug }}">{{ title }}</a></h1>
             <article>{{{ summary }}}</article>
-            <small>Le <time pubdate="pubdate" datetime="{{ pubDate }}">{{ date }}</time> par <span>{{ author }}</span> (<a href="{{ link }}">{{ link }}</a>)</small>
+            <small>Le <time pubdate="pubdate" datetime="{{ pubDate }}">{{ date }}</time> par <span>{{ author }}</span> (<a href="#{{ slug }}">lien local</a>)</small>
         </article>
         {{/articles}}
     </section>
