@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<opml version="1.1">
+    <head>
+        <title>Flux du planète scopyleft</title>
+        <dateCreated>Wed, 02 Jan 2013 10:05:40 +0100</dateCreated>
+    </head>
+    <body>
+        <outline text="scopyleft">
+            <outline title="David Larlet" text="David Larlet" type="rss" xmlUrl="https://larlet.fr/david/log/" />
+            <outline title="Vincent Agnano" text="Vincent Agnano" type="rss" xmlUrl="http://vinyll.scopyleft.fr/rss/" />
+            <outline title="Nicolas Perriault" text="Nicolas Perriault" type="rss" xmlUrl="https://nicolas.perriault.net/code/feed/" />
+        </outline>
+    </body>
+</opml>

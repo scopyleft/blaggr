@@ -1,5 +1,6 @@
 article > h1 {
     display: inline-block;
+    border: none;
 }
 article > h1 > a {
     color: inherit;
@@ -31,4 +32,12 @@ article > article pre {
     width: auto;
     overflow: auto;
     padding: 1em;
+}
+.logo {
+    font-size: 4em;
+}
+.opml {
+    font-size: 1em;
+    padding: 0;
+    border: none;
 }
