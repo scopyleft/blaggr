@@ -1,6 +1,6 @@
 {
-  "name": "scopyblog",
-  "version": "0.0.1",
+  "name": "blaggr",
+  "version": "0.0.2",
   "description": "Planet de blogs de Scopyleft",
   "main": "app.js",
   "scripts": {
