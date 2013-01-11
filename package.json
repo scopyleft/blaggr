@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/scopyleft/blog.git",
+  "repository": "https://github.com/scopyleft/blaggr.git",
   "author": "Scopyleft",
   "license": "BSD",
   "engines": {

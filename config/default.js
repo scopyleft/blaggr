@@ -5,7 +5,7 @@ module.exports = {
         language: 'fr',
         templateEngine: cons.mustache,
         viewsDir: __dirname + '/../views',
-        viewsExtensions: 'html',
+        viewsExtensions: 'html'
     },
     feeds: [
         {
@@ -21,6 +21,11 @@ module.exports = {
         {
             url: "https://nicolas.perriault.net/code/feed/",
             title: "Nicolas Perriault",
+            type: "rss"
+        },
+        {
+            url: "http://scopyleft.fr/syndication/",
+            title: "scopyleft",
             type: "rss"
         }
     ]
